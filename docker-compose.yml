@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  analizador:
+    build: .
+    container_name: suricata_core
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./debug_logs:/var/log/suricata
+      - ./debug_pcaps:/data/pcaps
+    restart: unless-stopped

@@ -1,0 +1,7 @@
+# Evita subir archivos temporales de Python y directorios de entorno
+__pycache__/
+venv/
+.DS_Store
+
+# Si alguna vez decides sacar las credenciales del código, 
+# bastará con añadir aquí el nombre del archivo de configuración.

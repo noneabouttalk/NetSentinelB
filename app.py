@@ -653,7 +653,7 @@ st.markdown(f"""
     <div class="topbar-brand">
         <div class="topbar-icon">&#9671;</div>
         <span class="topbar-name">NetSentinel</span>
-        <span class="topbar-version">v2.4.1</span>
+        <span class="topbar-version">v1.0</span>
     </div>
     <div class="topbar-right">
         <div class="topbar-status">

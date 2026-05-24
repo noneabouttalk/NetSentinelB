@@ -42,7 +42,10 @@ Before starting the tool, ensure your settings are configured:
    docker compose up -d --build to create the entire enviroment
 3. Access the streamlit interface:
    http://localhost:8501
-
+4. Default credentials username: admin password: admin
+<img width="1914" height="972" alt="image" src="https://github.com/user-attachments/assets/4a8bb680-d508-4ec5-b88d-abab05cde646" />
+5.Upload your pcap, pcapng to the tool and wait patiently (depends on your AI might be necessary to change the wait time on the app.py (10 minutes) to 20 min.
+<img width="1904" height="853" alt="image" src="https://github.com/user-attachments/assets/e5b05fed-6dab-4b9d-86c8-f1014a01e53d" />
 
 ## ⚠️ Compatibility Warning
 **NetSentinelB v1.0** is currently optimized for **Windows environments**. 

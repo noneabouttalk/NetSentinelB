@@ -689,7 +689,7 @@ st.markdown('<div class="upload-label">&#9632; &nbsp; Packet Capture Input</div>
 uploaded_file = st.file_uploader(
     "Drop your capture file here — supported formats: .pcapng, .pcap",
     type=["pcapng", "pcap"],
-    max_upload_size=500,
+    #max_upload_size=500,
     label_visibility="collapsed"
 )
 
